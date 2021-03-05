@@ -1,0 +1,16 @@
+{
+  "name": "gherkin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js",
+    "cucumber": "./node_modules/.bin/cucumber.js features/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0"
+  }
+}
